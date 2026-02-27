@@ -97,6 +97,7 @@ def apagar_termo(termo_id):
     # Redireciona de volta para a página do glossário
     return redirect(url_for('glossario'))
 
+
 # --- Rotas do Gemini (INÍCIO) ---
 @app.route('/duvidas')
 def duvidas():

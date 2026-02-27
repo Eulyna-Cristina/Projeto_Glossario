@@ -1,75 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre a Equipe</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            margin: 0;
-            padding: 0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre a Equipe</title>
 
-        }
-        header {
-            background-color: #242525;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            max-width: 1000px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .equipe {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .card {
-            background-color: #e9ecef;
-            padding: 20px;
-            border-radius: 10px;
-            width: 300px;
-            box-shadow: 0 0 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .card h2 {
-            margin-top: 0;
-            color: #0077b6;
-        }
-        .card p {
-            margin: 8px 0;
-        }
-        .links a {
-            text-decoration: none;
-            color: #0077b6;
-            margin-right: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #232324;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
+  <style>
+     {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+
+    header {
+      background-color: #242525;
+      color: #fff;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+
+    .equipe {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+    }
+
+
+    .card {
+      background-color: #e9ecef;
+      padding: 25px;
+      border-radius: 12px;
+      width: 280px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      color: #0077b6;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+    }
+
+
+    .links {
+      margin-top: 12px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #0077b6;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background-color: #232324;
+      color: #fff;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-    <h1>👥 Nossa Equipe</h1>
-    <p>Conheça quem desenvolveu este projeto incrível</p>
-</header>
+  <header>
+    <h1>Sobre a Equipe</h1>
+    <p>Conheça os integrantes do projeto</p>
+  </header>
+
+<body>
+
 
 <main>
     <div class="equipe">
